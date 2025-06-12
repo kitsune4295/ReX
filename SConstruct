@@ -461,7 +461,8 @@ except AttributeError:
     pass
 for tool in custom_tools:
     env.Tool(tool)
-
+import scons_compiledb
+scons_compiledb.enable_with_cmdline(env)
 
 # Add default include paths.
 env.Prepend(CPPPATH=["#"])
