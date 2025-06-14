@@ -33,7 +33,6 @@ misc/hooks/pre-commit-custom-*
 bin
 *.gen.*
 compile_commands.json
-.compile_commands.json
 platform/windows/godot_res.res
 
 # Ninja build files
